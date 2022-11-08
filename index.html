@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>AXON LOGIN GATE</title>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/font.css">
+  </head>
+  <body>
+    <!-- nav bar below -->
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+          <a class="navbar-item" href="https://bulma.io">
+            <img src="/images/Capture.PNG" width=auto height=auto>
+          </a>
+      
+          <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+          </a>
+        </div>
+      
+        <div id="navbarBasicExample" class="navbar-menu">
+          <div class="navbar-start">
+            <a href="index.html" class="navbar-item">
+              Home
+            </a>
+            <div class="navbar-item has-dropdown is-hoverable">
+              <a class="navbar-link">
+                More
+              </a>
+              <div class="navbar-dropdown">
+                <a class="navbar-item">
+                  About
+                </a>
+                <a class="navbar-item">
+                  Contact
+                </a>
+                <a href="/authenticated.html" target="_blank" class="navbar-item">
+                  Test authenticated page *
+                  <!-- here is where I would come back -->
+                </a>
+                <hr class="navbar-divider">
+                <a class="navbar-item">
+                  Report an issue
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    <!-- nav bar above -->
+
+  <!-- page central starts here -->
+  <section class="section">
+    <div class="container">
+      <h1 class="title">
+        AXON
+      </h1>
+      <p class="subtitle">
+        Enter Credentials <span style="text-decoration: underline;">Below</strong>
+      </p>
+      <form class="box">
+        <div class="field">
+          <label class="label">Email</label>
+          <div class="control">
+            <!-- first user input id added below -->
+            <input id="emailInput" class="input" type="email" placeholder="e.g. user@Axon.com">
+          </div>
+        </div>
+      
+        <div class="field">
+          <label class="label">Password</label>
+          <div class="control">
+            <!-- second user input id added below -->
+            <input id="data" class="input" type="password" placeholder="********">
+          </div>
+        </div>
+      
+        <button type="submit" id="submit" class="yellowBtn button">Sign in</button>
+      </form>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="content has-text-centered">
+      <p>
+        <strong>AXON Login Page</strong> by <a href="https://www.linkedin.com/in/jorge-lopez-895307194/">Jorge Lopez</a>. Work in Progress , this website content
+        is for testing purposes <br/> and not an actual representation of final&nbsp;product. <br/>
+        @2022 <a href="https://www.axon.com/">Axon</a>
+      </p>
+    </div>
+  </footer>
+
+  <!-- javascript link -->
+<script defer src="/js/script.js"></script>
+  </body>
+</html>

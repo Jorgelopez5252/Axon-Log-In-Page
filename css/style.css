@@ -1,0 +1,29 @@
+html {
+    background-color:black;
+}
+
+.title, .subtitle {
+    color: white;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    font-family:Axon-Bold;
+}
+
+p, label {
+    font-family:Axon-Regular;
+}
+
+.yellowBtn {
+    background-color:#ffe200;
+
+}
+
+footer{
+    margin-top: auto;
+}

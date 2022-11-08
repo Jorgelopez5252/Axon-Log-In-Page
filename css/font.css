@@ -1,0 +1,14 @@
+@font-face {
+    font-family:Axon-Bold;
+    src: url(/fonts/Axon-Bold.ttf);
+}
+
+@font-face {
+    font-family:Axon-Regular;
+    src: url(/fonts/Axon-Regular.ttf);
+}
+
+@font-face {
+    font-family:Axon-Light;
+    src: url(/fonts/Axon-Light.ttf);
+}
