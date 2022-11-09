@@ -36,12 +36,15 @@ document.addEventListener('DOMContentLoaded', () => {
 
   function passInputFun() {
     const ResultB = document.getElementById("data").value;
-    console.log(typeof ResultB);
+    console.log( typeof parseInt(ResultB));
     console.log(ResultB);
+
   }
+
 
       // thisstops page from refreshing upon clicking SUBMIT (DELETE WHEN NO LONGER NEEDED)
       btn.addEventListener("click", function(event){
         event.preventDefault()
       });
 
+      
