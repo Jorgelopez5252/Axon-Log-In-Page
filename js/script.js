@@ -31,7 +31,7 @@ document.addEventListener('DOMContentLoaded', () => {
    console.log(ResultA);
   }
 
-  // passInputFun() gets the password value (Comes in as STRING value) 
+  // passInputFun() gets the password value (Comes in as STRING value but we convert it to int) 
   btn.addEventListener('click', passInputFun);
 
   function passInputFun() {
@@ -47,4 +47,3 @@ document.addEventListener('DOMContentLoaded', () => {
         event.preventDefault()
       });
 
-      
