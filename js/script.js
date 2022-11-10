@@ -31,14 +31,16 @@ document.addEventListener('DOMContentLoaded', () => {
    console.log(ResultA);
   }
 
-  // passInputFun() gets the password value (Comes in as STRING value) 
+  // passInputFun() gets the password value (Comes in as STRING value but we convert it to int) 
   btn.addEventListener('click', passInputFun);
 
   function passInputFun() {
     const ResultB = document.getElementById("data").value;
-    console.log(typeof ResultB);
+    console.log( typeof parseInt(ResultB));
     console.log(ResultB);
+
   }
+
 
       // thisstops page from refreshing upon clicking SUBMIT (DELETE WHEN NO LONGER NEEDED)
       btn.addEventListener("click", function(event){
