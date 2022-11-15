@@ -39,7 +39,6 @@ document.addEventListener('DOMContentLoaded', () => {
     // console.log( typeof parseInt(ResultB));
     console.log( typeof ResultB);
     console.log(ResultB);
-
   }
 
       // thisstops page from refreshing upon clicking SUBMIT (DELETE WHEN NO LONGER NEEDED)
