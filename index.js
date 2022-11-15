@@ -12,20 +12,20 @@ app.listen(
 app.get('/users', (req, res) => {
 res.status(200).send({
     id:1,
-    userName:'Jorge Lopez',
+    userEmail:'jolopez@axon.com',
     userPassword:'password1'
 })
 });
 
 app.post('/users/:id', (req, res) => {
     const { id } = req.params;
-    const { userName } = req.body;
+    const { userEmail } = req.body;
     const { userPassword } = req.body;
 
-    if (!userName || !userPassword){
+    if (!userEmail || !userPassword){
         res.status(418).send({message: 'we need username and password!'})
     }
     res.send({
-        newUser: `Hello ${userName} with password of ${userPassword} your ID is ${id}`,
+        newUser: `Hello ${userEmail} with password of ${userPassword} your ID is ${id}`,
     })
 });
