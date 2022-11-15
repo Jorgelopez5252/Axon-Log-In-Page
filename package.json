@@ -2,5 +2,23 @@
   "dependencies": {
     "bulma": "^0.9.4",
     "express": "^4.18.2"
-  }
+  },
+  "name": "axon-log-in-page",
+  "description": "Simple Log-in page, for AXON (Practice)",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jorgelopez5252/Axon-Log-In-Page.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jorgelopez5252/Axon-Log-In-Page/issues"
+  },
+  "homepage": "https://github.com/Jorgelopez5252/Axon-Log-In-Page#readme"
 }
